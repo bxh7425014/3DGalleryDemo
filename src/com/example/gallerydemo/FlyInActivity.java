@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 public class FlyInActivity extends Activity {
-
+	private RenderView mRenderView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -14,6 +14,7 @@ public class FlyInActivity extends Activity {
 		Bundle bl = this.getIntent().getExtras();
 		String activityTitle = bl.getString(Constants.ACTIVITY_TITLE);
 		this.setTitle(activityTitle);
-		setContentView(R.layout.layout_3d);
+		mRenderView = new RenderView(this);
+		setContentView(mRenderView);
 	}
 }
