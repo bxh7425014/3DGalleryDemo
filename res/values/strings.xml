@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3DGalleryDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">图片在GLSurfaceView中的播放效果演示</string>
+    <string name="fly_in_locale">飞入效果+本地资源</string>
+    <string name="fly_in_kuaipan">飞入效果+快盘资源</string>
+    <string name="fade_in_locale">淡入效果+本地资源</string>
+    <string name="fade_in_kuaipan">淡入效果+快盘资源</string>
+    <string name="rotate_locale">旋转效果+本地资源</string>
+    <string name="rotate_kuaipan">旋转效果+快盘资源</string>
+
+</resources>
